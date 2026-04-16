@@ -1,9 +1,8 @@
-function App() {
-  return (
-    <div>
-      <h1>Hello, Vite + React!</h1>
-    </div>
-  );
-}
+import { RouterProvider } from "react-router";
+import router from "./router";
+
+const App = () => {
+  return <RouterProvider router={router} />;
+};
 
 export default App;
